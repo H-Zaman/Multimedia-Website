@@ -1,0 +1,49 @@
+*{margin:0; padding:0;}
+
+body{ 
+
+background-repeat: no-repeat;
+background-size: 100% 1122px; 
+
+}
+
+.main{margin:auto;
+height:1119px;
+width:1024px;
+display:block;
+overflow:hidden;
+background:FFFFFF;
+border-left:groove;
+border-right:groove;
+border-bottom:solid;
+
+}
+.icon{
+ height:200px;
+ width:900px;
+ display:block;
+overflow:hidden;
+
+padding:0px 130px 0px 0px;
+	}
+.text{
+size:100% auto;
+padding-left:150px;
+display:block;
+overflow:hidden;
+font-family:Castellar;
+font-size:50px;
+color:red;
+
+
+}
+.video{border:solid;
+width:100%;
+display:block;
+overflow:hidden;}
+.des{display:block;
+overflow:hidden;
+background:#FFFFFF;
+float:right;
+color:#646464;
+	}

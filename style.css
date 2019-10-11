@@ -1,0 +1,179 @@
+*{margin:0; padding:0;}
+/**********************************[Start CSS]****************************************/
+body{font-family:Arial; 
+font-size:14px; 
+line-height:20px; 
+color:#000;
+margin-top:0px;
+background-repeat: no-repeat;
+background-size: 100% auto; 
+}
+.main{width:960px;
+background:#FFFFFF;
+background-size: 100% auto; 
+margin:0px auto;
+overflow:hidden;
+display:block;
+border-left:solid;
+border-right:solid;
+}
+.logo{float:left;
+padding:15px;
+background:#FFFFFF;
+display:block;
+}
+.top_text{
+background:#FFFFFF;
+float:right;
+font-family:Gloucester MT Extra Condensed;
+color:#646464;
+font-size:36px;
+padding:27px;
+}
+.heading{background:#00A2E8;
+font-family:Tw Cen MT Condensed;
+font-size:20px;
+color:#FFFFFF;
+padding:4px;
+overflow:hidden;
+display:block;
+border-top:ridge;
+border-color:black;
+}
+#main_content{overflow:hidden;display:block;height:375px}
+/********************************************* [Start-Menu] ***************************************************/
+#menu{text-align:justify}
+#menu ul,
+#menu ul li,
+#menu ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu ul {
+  position: relative;
+  z-index: 597;
+  float: left;
+  width: 170px;
+}
+#menu ul li {
+  float: left;
+  min-height: 1px;
+  line-height: 1em;
+  vertical-align: middle;
+  border-bottom: 1px solid #FFFFFF;
+}
+#menu ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+  background:#B5E61D;
+}
+#menu ul li {float: none;}
+#menu a {
+  background-color: #00A2E8;
+  background-repeat: repeat-x;
+  color: #ffffff;
+  display: block;
+  font-family: Tw Cen MT Condensed;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 180%;
+  padding: 7px 12px;
+  text-decoration: none;
+}
+#menu > ul > li:hover > a {
+background-repeat: repeat-x;
+  color: #ffffff;
+  background:#8A4096;
+}
+#menu .has-sub:hover > ul {
+  display: block;
+}
+#menu .has-sub ul {
+  display: none;
+  position: absolute;
+  width: 150px;
+  top: 5px;
+  left: 100%;
+}
+#menu .has-sub ul li a {
+  background: #0B366A;
+  border-bottom: 0px solid #FFFFFF;
+  filter: none;
+  font-size: 17px;
+  display: block;
+  line-height: 120%;
+  padding: 10px;
+  color: #ffffff;
+}
+#menu .has-sub ul li:hover a {
+  background: #8A4096;
+}
+#menu .float {float:right;}
+#menu p1 {font-size:9px;color:	#008000font-family:bold}
+/**********************************[End-Menu]****************************************/
+.paragraph{display:block;
+overflow:hidden;
+float:right;
+width:743px;
+height:375px;
+color:#000;
+text-align:justify;
+padding:15px 23px;
+background:#FFFFFF;
+}
+.paragraph p1{font-size:30px;
+font-family:Algerian;
+color:#880015}
+.paragraph p2{font-size:19px;
+font-family:Candara}
+.paragraph p3{font-size:19px;
+font-family:Candara}
+/**********************************[End-Paragraph]****************************************/
+.article{background:#000;
+display:block;
+overflow:hidden;
+border-top:solid;}
+.footer{width:960px;
+height:105px;
+background:#000;
+font-size:15px;
+border:solid;}
+.footer p1{font-family:Gill Sans MT Ext Condensed Bold;
+font-size:30px;
+padding:7px  15px;
+color:#FFFFFF;
+float:left;
+}
+.footer p2{font-family:Gill Sans MT Ext Condensed Bold;
+font-size:30px;
+padding:7px 160px;
+color:#FFFFFF;
+float:left;
+}
+.footer p3{font-family:Gill Sans MT Ext Condensed Bold;
+font-size:30px;
+padding:8px 50px 5px 5px;
+color:#FFFFFF;
+float:right;}
+.footer p4{font-family:Tw Cen MT Condensed;
+font-size:18px;
+padding:5px  16px;
+color:#FF331A;
+}
+.footer p5{font-size:20px;
+font-family:Tw Cen MT Condensed;
+padding:7px 220px;
+color:#FF331A}
+.footer p6{font-size:20px;
+font-family:Tw Cen MT Condensed;
+color:#FF331A;
+padding:0px 25px;
+}
+.footer p7{font-size:20px;
+font-family:Tw Cen MT Condensed;
+float:left;
+padding:0px 395px;
+color:#FFFFFF}
+/**********************************[End-Footer]****************************************/
